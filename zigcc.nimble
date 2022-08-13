@@ -1,11 +1,11 @@
 # Package
 
-version       = "0.1.0"
+version       = "1.0.0"
 author        = "David Krause"
 description   = "wraps `zig cc` to be able to be called by the nim compiler"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["zigcc"]
+bin           = @["zigcc", "zigcpp"]
 
 
 # Dependencies
