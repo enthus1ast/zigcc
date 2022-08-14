@@ -22,3 +22,11 @@ nim c --cc:clang --clang.exe="zigcc.cmd" --clang.linkerexe="zigcc.cmd" --forceBu
 ```
 nim c --cc:clang --clang.exe="zigcc" --clang.linkerexe="zigcc" --forceBuild:on --opt:speed hello.nim
 ```
+
+# cross compilation example
+
+build linux executables from windows:
+
+```
+nim c --cc:clang --clang.exe="zigcc.cmd" --clang.linkerexe="zigcc.cmd" --passc:"-target x86_64-linux-gnu" --passl:"-target x86_64-linux-gnu" --forceBuild:on --os:linux --opt:speed  --out:hellolinux hello.nim
+```
