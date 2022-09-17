@@ -11,6 +11,11 @@ Both are wrappers for calling zig:
 
 also see this https://stackoverflow.com/questions/73345643/how-to-use-the-zig-compiler-in-order-to-compile-nim-code
 
+# Installation
+```
+nimble install zigcc
+```
+
 # windows
 
 ```
