@@ -1,6 +1,6 @@
 # Package
 
-version       = "2.0.1"
+version       = "3.0.0"
 author        = "David Krause"
 description   = "wraps `zig cc` to be able to be called by the nim compiler"
 license       = "MIT"
