@@ -1,2 +1,3 @@
-import os, strutils
-discard execShellCmd "zig c++ " & commandLineParams().join(" ")
+import zigcc/utils
+
+callZig("c++")
